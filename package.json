@@ -4,7 +4,15 @@
   "description": "The Microservice Boilerplate BE using GraphQL and Apollo Federation",
   "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon",
+    "test": "npm run test:unit",
+    "test:unit": "jest unit",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/server.js",
+    "lint": "eslint . --ext .ts",
+    "codegen": "graphql-codegen --config codegen.yml",
+    "generate:push": "npx prisma db push",
+    "prisma:studio": "npx prisma studio"
   },
   "repository": {
     "type": "git",
@@ -53,5 +61,12 @@
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.1.0",
     "typescript": "^4.8.3"
+  },
+  "engines": {
+    "npm": ">=8.15.0",
+    "node": ">=16.17.0"
+  },
+  "_moduleAliases": {
+    "@components": "build/user"
   }
 }
