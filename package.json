@@ -15,5 +15,22 @@
   "bugs": {
     "url": "https://github.com/regieosano/microservice-be-graphql-boilerplate/issues"
   },
-  "homepage": "https://github.com/regieosano/microservice-be-graphql-boilerplate#readme"
+  "homepage": "https://github.com/regieosano/microservice-be-graphql-boilerplate#readme",
+  "dependencies": {
+    "@apollo/federation": "^0.36.1",
+    "@apollo/subgraph": "^2.1.1",
+    "@graphql-codegen/core": "^2.6.2",
+    "@graphql-codegen/plugin-helpers": "^2.7.0",
+    "@graphql-codegen/schema-ast": "^2.5.1",
+    "@prisma/client": "^4.3.1",
+    "apollo-graphql": "^0.9.7",
+    "apollo-server": "^3.10.2",
+    "apollo-server-core": "^3.10.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "graphql": "^16.6.0",
+    "graphql-middleware": "^6.1.32",
+    "module-alias": "^2.2.2"
+  }
 }
