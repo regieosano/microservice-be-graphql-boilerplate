@@ -1,0 +1,19 @@
+{
+  "name": "microservice-be-graphql-boilerplate",
+  "version": "1.0.0",
+  "description": "The Microservice Boilerplate BE using GraphQL and Apollo Federation",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regieosano/microservice-be-graphql-boilerplate.git"
+  },
+  "author": "Regie Osano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/regieosano/microservice-be-graphql-boilerplate/issues"
+  },
+  "homepage": "https://github.com/regieosano/microservice-be-graphql-boilerplate#readme"
+}
