@@ -1,7 +1,7 @@
 {
-  "name": "microservice-be-graphql-boilerplate",
+  "name": "ical-rewrite-be",
   "version": "1.0.0",
-  "description": "The Microservice Boilerplate BE using GraphQL and Apollo Federation",
+  "description": "iCal tool rewritten in NodeJS",
   "main": "server.ts",
   "scripts": {
     "start:dev": "nodemon",
